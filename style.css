@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Alumni+Sans+Pinstripe&family=Dosis&family=Rubik+Dirt&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(51,0,51);
+    color: #fff;
+    text-align: center;
+    font-family: 'Dosis', sans-serif;
+    line-height: 26px;
+    font-weight: 400;
+}
+
+body ::selection{
+    background-color: #e684a9;
+}
+
+.container{
+    margin: 10px auto;
+    padding: 10px;
+}
+
+h1{
+    text-transform: uppercase;
+    text-shadow: 2px 2px rgb(255,70,118);
+    font-family: sans-serif;
+    padding: 20px;
+}
+
+h2{
+    margin-bottom: 30px;
+}
+
+#addNew{
+    background-color: rgba(255,70,118,0.3);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 30px;
+    font-size: 20px;
+    border-radius: 20px;
+    max-width: 400px;  
+    cursor: pointer;
+    margin: 20px auto;
+}
+
+.tasks{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    margin: 10px auto;
+    flex-wrap: wrap;
+}
+
+.tasks div{
+    color: rgb(51,0,51);
+    height: 200px;
+    padding: 15px;
+    border-radius: 15px;
+    width: 300px;
+    max-width: 90%;
+    background-color: #fff;
+    display: grid;
+    text-align: left;
+    grid-template-rows: 1fr 1fr 4fr 1fr;
+    outline: 2px dashed #fff;
+    outline-color:  #ff4676 #fff;
+    outline-offset: 3px;
+}
+
+.tasks div p{
+    overflow: hidden;
+    padding: 2px 10px;
+    text-align: left;
+}
+
+.options{
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    padding-top: 10px;
+}
+
+.options i{
+    cursor: pointer;
+}
+
+.tasks div .title, .tasks div .date{
+    padding: 2px 10px;
+}
+
+.tasks div .title{
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.tasks div .date{
+    color: rgba(51,0,51,0.5);
+}
+
