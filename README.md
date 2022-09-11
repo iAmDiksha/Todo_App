@@ -10,3 +10,4 @@ https://iamdiksha.github.io/Todo_App/
 ## Things I learnt
 - CRUD operations in Javascript
 - Local storage
+- DOM manipulation
